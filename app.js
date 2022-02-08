@@ -14,7 +14,7 @@ app.use(express.json())
 
 const alienRouter =require('./route/endpoints')
 app.use('/endpoints',alienRouter)
-
+//hai
 app.listen(9000,()=>{
     console.log("Server Connected..")
 })
